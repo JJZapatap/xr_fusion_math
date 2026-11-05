@@ -1,0 +1,8 @@
+Esta carpeta contiene un instalador, no los binarios de MediaPipe.
+El visor de figuras funciona sin dependencias externas.
+Para controlar con manos sin depender de CDN, en Windows ejecute:
+  INSTALAR_MEDIAPIPE_LOCAL.bat
+Requiere Internet una vez para descargar tareas wasm y el modelo con su licencia original.
+Si su red universitaria bloquea los CDN, utilice una red autorizada o consulte al administrador de red.
+Mientras tanto, la app puede intentar cargar MediaPipe desde jsDelivr o unpkg.
+Version fijada del instalador: @mediapipe/tasks-vision@0.10.21.
